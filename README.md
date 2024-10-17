@@ -25,7 +25,7 @@ The following software can be installed using the application:
 ## Building the Project
 1. **Clone the repository**:
     ```sh
-    git clone <repository-url>
+    git clone gh repo clone Raiff1982/windows-app-test
     ```
 2. **Open the solution in Visual Studio**:
     - Locate and open the `windows app test.sln` file.
