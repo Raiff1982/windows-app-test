@@ -57,7 +57,12 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Release\windows app test.exe" />
-    <None Include="Release\windows app test.pdb" />
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include="CodeMap1.dgml" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LICENSE.txt" />
   </ItemGroup>
 </Project>

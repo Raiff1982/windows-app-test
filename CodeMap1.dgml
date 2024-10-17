@@ -1,118 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DirectedGraph DataVirtualized="True" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="(@1 @3 Member=(Name=__empty_global_delete OverloadingParameters=[(Type=&quot;void *&quot;),(Type=&quot;unsigned __int64&quot;)]))" Category="CodeSchema_Method" Bounds="1.39166666666681,159.44,155.4,25.96" DelayedCrossGroupLinksState="Fetched" Label="__empty_global_delete" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
-    <Node Id="(@1 @3 Member=(Name=__empty_global_delete OverloadingParameters=[(Type=&quot;void *&quot;)]))" Category="CodeSchema_Method" Bounds="-184.008333333333,159.44,155.4,25.96" DelayedCrossGroupLinksState="Fetched" Label="__empty_global_delete" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
-    <Node Id="(@1 @3 Type=_Elem)" Category="CodeSchema_TypeDef" Bounds="-96.5949999999999,103.44,71.57,26" DelayedCrossGroupLinksState="Fetched" Label="_Elem" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
-    <Node Id="(@1 @3 Type=_Myos)" Category="CodeSchema_TypeDef" Bounds="4.97499999999999,103.44,74.6866666666667,26" DelayedCrossGroupLinksState="Fetched" Label="_Myos" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
-    <Node Id="(@1 @3 Type=_Ptrval)" Category="CodeSchema_TypeDef" Bounds="109.661666666667,103.44,75.7,26" DelayedCrossGroupLinksState="Fetched" Label="_Ptrval" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
-    <Node Id="(@1 @3 Type=_Ty)" Category="CodeSchema_TypeDef" Bounds="-184.008333333333,103.44,57.4133333333333,26" DelayedCrossGroupLinksState="Fetched" Label="_Ty" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
-    <Node Id="@10" Category="CodeSchema_Method" Bounds="-29.94,47.48,68.68,25.96" DelayedCrossGroupLinksState="Fetched" Label="About" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
-    <Node Id="@11" Category="CodeSchema_Method" Bounds="-37.8666666666667,-8.48000000000003,84.5333333333333,25.96" DelayedCrossGroupLinksState="Fetched" Label="WndProc" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
-    <Node Id="@12" Category="CodeSchema_Method" Bounds="98.8683333333333,-64.4400000000001,116.196666666667,25.96" DelayedCrossGroupLinksState="Fetched" Label="createMapping" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
-    <Node Id="@13" Category="CodeSchema_Method" Bounds="266.896666666667,-120.4,62.14,25.96" DelayedCrossGroupLinksState="Fetched" Label="main" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
-    <Node Id="@14" Category="CodeSchema_Method" Bounds="-41.68,-120.4,92.16,25.96" DelayedCrossGroupLinksState="Fetched" Label="wWinMain" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
-    <Node Id="@2" Category="CodeSchema_Assembly" Bounds="-224.008333333333,-200.4,621.2,425.8" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="NotFetched" FetchedChildrenCount="1" FilePath="$(1b99990b-b937-4154-a3b6-c18832507385.OutputPath)" Group="Expanded" Label="windows app test.exe" UseManualLocation="True" />
-    <Node Id="@4" Category="CodeSchema_Namespace" Bounds="-204.008333333333,-160.4,581.2,365.8" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="16" Group="Expanded" Label="‎::" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
-    <Node Id="@5" Category="CodeSchema_Method" Bounds="-56.55,-64.4400000000001,121.9,25.96" DelayedCrossGroupLinksState="Fetched" Label="MyRegisterClass" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
-    <Node Id="@6" Category="CodeSchema_Method" Bounds="95.35,-8.48000000000003,113.233333333333,25.96" DelayedCrossGroupLinksState="Fetched" Label="installSoftware" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
-    <Node Id="@7" Category="CodeSchema_Method" Bounds="-184.008333333333,-64.4400000000001,96.8166666666667,25.96" DelayedCrossGroupLinksState="Fetched" Label="InitInstance" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
-    <Node Id="@8" Category="CodeSchema_Method" Bounds="238.741666666667,-8.48000000000003,118.45,25.96" DelayedCrossGroupLinksState="Fetched" Label="searchPackages" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
-    <Node Id="@9" Category="CodeSchema_Method" Bounds="245.951666666667,-64.4400000000001,104.03,25.96" DelayedCrossGroupLinksState="Fetched" Label="handleQuery" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
+    <Node Id="(@1)" Category="CodeSchema_Assembly" Bounds="0,0,173.183333333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(1b99990b-b937-4154-a3b6-c18832507385.OutputPath)" Group="Collapsed" Label="windows app test.exe" />
   </Nodes>
-  <Links>
-    <Link Source="@11" Target="@10" Category="CodeSchema_Calls" Bounds="4.40000009536743,17.4799995422363,0,21" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
-    <Link Source="@13" Target="@12" Category="CodeSchema_Calls" Bounds="198.037078857422,-95.4048309326172,69.6554870605469,27.6448287963867" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
-    <Link Source="@13" Target="@9" Category="CodeSchema_Calls" Bounds="297.966674804688,-94.4400024414063,0,21" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
-    <Link Source="@14" Target="@5" Category="CodeSchema_Calls" Bounds="4.40000009536743,-94.4400024414063,0,21" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
-    <Link Source="@14" Target="@7" Category="CodeSchema_Calls" Bounds="-94.7696914672852,-94.4400024414063,66.696496963501,26.6595458984375" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
-    <Link Source="@2" Target="@4" Category="Contains" FetchingParent="@2" />
-    <Link Source="@4" Target="(@1 @3 Member=(Name=__empty_global_delete OverloadingParameters=[(Type=&quot;void *&quot;),(Type=&quot;unsigned __int64&quot;)]))" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="(@1 @3 Member=(Name=__empty_global_delete OverloadingParameters=[(Type=&quot;void *&quot;)]))" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="(@1 @3 Type=_Elem)" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="(@1 @3 Type=_Myos)" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="(@1 @3 Type=_Ptrval)" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="(@1 @3 Type=_Ty)" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="@10" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="@11" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="@12" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="@13" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="@14" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="@5" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="@6" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="@7" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="@8" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="@9" Category="Contains" FetchingParent="@4" />
-    <Link Source="@5" Target="@11" Category="CodeSchema_Calls" Bounds="4.40000009536743,-38.4799995422363,0,21" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
-    <Link Source="@9" Target="@6" Category="CodeSchema_Calls" Bounds="194.235412597656,-38.4799995422363,69.8663635253906,26.7789096832275" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
-    <Link Source="@9" Target="@8" Category="CodeSchema_Calls" Bounds="297.966674804688,-38.4799995422363,0,21" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
-  </Links>
+  <Links />
   <Categories>
     <Category Id="CodeSchema_Assembly" Label="Assembly" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Assembly" NavigationActionLabel="Assemblies" />
-    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
-    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
-    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
-    <Category Id="CodeSchema_Namespace" Label="Namespace" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="Namespaces" />
-    <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
-    <Category Id="CodeSchema_TypeDef" Label="Typedef" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" IsProviderRoot="False" NavigationActionLabel="Typedefs" />
-    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
     <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="Files" />
   </Categories>
   <Properties>
     <Property Id="Bounds" DataType="System.Windows.Rect" />
     <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
-    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
     <Property Id="DataVirtualized" Label="Data Virtualized" Description="If true, the graph can contain nodes and links that represent data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
     <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
     <Property Id="DelayedChildNodesState" Label="Delayed Child Nodes State" Description="Unspecified if the delayed child nodes state is not specified. NotFetched if the group contains child nodes that are not fetched into the graph yet. Fetched if the group has all its delayed child nodes already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
     <Property Id="DelayedCrossGroupLinksState" Label="Delayed Cross-Group Links State" Description="Unspecified if the delayed cross-group links state is not specified. NotFetched if delayed cross-group links on this node are not fetched into the graph yet. Fetched if all delayed cross-group links have already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
     <Property Id="Expression" DataType="System.String" />
-    <Property Id="FetchedChildrenCount" DataType="System.Int32" />
-    <Property Id="FetchingParent" DataType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
     <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
     <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
     <Property Id="GroupLabel" DataType="System.String" />
     <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
-    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
-    <Property Id="IsContainment" DataType="System.Boolean" />
     <Property Id="IsEnabled" DataType="System.Boolean" />
-    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
     <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
-    <Property Id="Language" Label="Language" Description="Language" DataType="System.String" />
     <Property Id="Layout" DataType="System.String" />
     <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
-    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
     <Property Id="TargetType" DataType="System.Type" />
-    <Property Id="UseManualLocation" DataType="System.Boolean" />
     <Property Id="Value" DataType="System.String" />
     <Property Id="ValueLabel" DataType="System.String" />
     <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
-    <Property Id="Weight" Label="Weight" Description="Weight" DataType="System.Double" />
     <Property Id="ZoomLevel" DataType="System.String" />
   </Properties>
   <QualifiedNames>
     <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
-    <Name Id="Member" Label="Member" ValueType="System.Object" />
-    <Name Id="Name" Label="Name" ValueType="System.String" />
-    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
-    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
-    <Name Id="Type" Label="Type" ValueType="System.Object" />
   </QualifiedNames>
   <IdentifierAliases>
     <Alias n="1" Uri="Assembly=$(1b99990b-b937-4154-a3b6-c18832507385.OutputPathUri)" />
-    <Alias n="2" Id="(@1)" />
-    <Alias n="3" Id="Namespace=::" />
-    <Alias n="4" Id="(@1 @3)" />
-    <Alias n="5" Id="(@1 @3 Member=(Name=MyRegisterClass OverloadingParameters=[(Type=&quot;HINSTANCE__ *&quot;)]))" />
-    <Alias n="6" Id="(@1 @3 Member=(Name=installSoftware OverloadingParameters=[(Type=&quot;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; const &amp;&quot;)]))" />
-    <Alias n="7" Id="(@1 @3 Member=(Name=InitInstance OverloadingParameters=[(Type=&quot;HINSTANCE__ *&quot;),(Type=int)]))" />
-    <Alias n="8" Id="(@1 @3 Member=(Name=searchPackages OverloadingParameters=[(Type=&quot;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; const &amp;&quot;),(Type=&quot;std::map&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,std::less&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;,std::allocator&lt;std::pair&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; const ,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt; &gt; &gt; const &amp;&quot;)]))" />
-    <Alias n="9" Id="(@1 @3 Member=(Name=handleQuery OverloadingParameters=[(Type=&quot;std::vector&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,std::allocator&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt; &gt; const &amp;&quot;),(Type=&quot;std::map&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,std::less&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;,std::allocator&lt;std::pair&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; const ,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt; &gt; &gt; const &amp;&quot;)]))" />
-    <Alias n="10" Id="(@1 @3 Member=(Name=About OverloadingParameters=[(Type=&quot;HWND__ *&quot;),(Type=&quot;unsigned int&quot;),(Type=&quot;unsigned __int64&quot;),(Type=__int64)]))" />
-    <Alias n="11" Id="(@1 @3 Member=(Name=WndProc OverloadingParameters=[(Type=&quot;HWND__ *&quot;),(Type=&quot;unsigned int&quot;),(Type=&quot;unsigned __int64&quot;),(Type=__int64)]))" />
-    <Alias n="12" Id="(@1 @3 Member=createMapping)" />
-    <Alias n="13" Id="(@1 @3 Member=main)" />
-    <Alias n="14" Id="(@1 @3 Member=wWinMain)" />
   </IdentifierAliases>
   <Styles>
     <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">
